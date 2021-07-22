@@ -1,0 +1,125 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+
+body
+{
+	background-image: url(b5.jpg) ;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  text-shadow: 2px 2px black;
+	font-size: 18px;
+}
+
+ 
+
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+
+
+
+.social-widget
+{
+	position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+
+
+h1 {
+    
+        font-size: 50px;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        border:5px;
+        border-width: 10px;
+        color: white;
+    }
+
+
+li
+{
+   display:inline-block;
+}
+
+.social-button
+{
+    width: 300px;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: 10px;
+    
+}
+
+.paypal
+{
+    background-color: black;
+}
+
+.paytm
+{
+    background-color: black;
+}
+
+a
+{
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+}
+
+.social-text
+{
+    width: 160px;
+    padding-left: 10px;
+    color: white;
+}
+
+.creditdebitcard
+{
+    background-color: black;
+}
+
+.gpay
+{
+    background-color: black;
+}
+
+.phonepe
+{
+    background-color: black;
+}
+
+.social-button:hover
+{
+    background-color: grey;
+    transition: 0.5s
+}
